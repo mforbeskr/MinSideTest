@@ -9,18 +9,54 @@
           rel="stylesheet" />
         <link rel="stylesheet" href="style.css" />
          <style>
-    iframe {
-      display: block;
-      margin: 0 auto; /* auto margin centers horizontally */
-    }
-  </style>
+            html, body {
+                background: #c3ffc850; display:table-cell; text-align:center; vertical-align:middle;
+                }
+
+                iframe {
+                 display: block;
+                 margin: 0 auto; /* auto margin centers horizontally */ 
+                }
+                 
+                 h1 {
+                    background: #c3ffc8;
+                    color : #a85303;
+                }
+
+                 h2 {
+                    background: #c3ffc8;
+                    color : #69340380;
+                    padding:16px;
+                }
+
+                p {
+                    color: #000000;
+                    margin: 0 auto;
+                    padding: 10px /* auto margin centers horizontally */ 
+                }
+
+                table {
+                    margin: 0 auto; /* auto margin centers horizontally */ 
+                }
+
+                nav
+                {
+                    padding: 10px 
+                }  
+                
+                form
+                {
+                    padding: 10px 
+                }
+
+        </style>
     </head>
 
 <body>
     <!-- Herunder er hjemmesidens indhold: -->
         <nav>
-        <a href="index.html"> Home </a>
-        <a href="OmOs.html"> Om Os </a>
+        <a href="index.html"> Home </a> |
+        <a href="OmOs.html"> Om Os  </a>|
         <a href="Rutevejledning.html"> Rutevejledning </a>    
 
         <!-- A search form -->
@@ -29,16 +65,16 @@
                 <input type="submit" value="Søg!" />
          </form>
         </nav>
+
     <header>
         <h1>Star Pizza</h1>
-        <p>En vidunderlig smagsoplevelse</p>
+        <p>En vidunderlig smagsoplevelse!</p>
     </header>
         <!-- Our Pages Main Content -->
     <main>
         <section>
-            <aside>
             <h2>Åbningstider</h2>
-            <table style="background-color:#dffcff; text-align:center;">
+            <table style="background-color:#dffcff; text-align:center; padding:10px; margin:auto;">
                 <tr>
                     <th>Day</th>
                     <td>|</td>
@@ -64,17 +100,20 @@
                 </tr>
 
                 <tr>
-                    <td>Staurday, Friday</td>
+                    <td>Saturday, Friday</td>
                      <td>|</td>
-                    <td>13.00 - 22.00</td>
+                    <td>13.00 - 23.00</td>
+                </tr>  <tr>
+                    <td> Sunday</td>
+                     <td>|</td>
+                    <td>Closed</td>
                 </tr>
 
             </table>
-            </aside>
+
         </section>
 
         <section>
-            <aside>
             <p>At Star Pizza we use only quality ingredients and prepare the food
                 under hygienic conditions.
 
@@ -84,42 +123,41 @@
 
                 Free delivery every day when buying for at least kr. 110,-.
             </p>
-            </aside>
             </section>
 
         <section>
             <h2><a href="menukort.html"> Menukort</a>:</h2>
-            <a href="menukort.html" target="_blank"><img src="images\menukort.jpg" width="9%" alt="Lækker pizza"></a>
-            <p>Her er vores <a href="menukort.html" target="_blank"> menukort</a>:</p>
+            <a href="menukort.html" target="_blank"><img src="images\menukort.jpg" max-width="7%" alt="Lækker pizza"></a>
+            <p>Her er vores <a href="menukort.html" target="_blank"> <b>menukort</b></a>:</p>
             
-         <ol>
+         <ul>
                 <li><a href="Forretter.html"> Forretter </a></li>
                 <li><a href="pizzaer.html"> Pizzaer </a></li>
                 <li><a href="pastaretter.html"> Pastaretter</a></li>
                 <li><a href="Drikkevarer.html"> Drikkevarer</a></li>
                 <li><a href="#"> Desserter</a></li>
                 <li><a href="#"> Andet & Souvenirs</a></li>
-        </ol>
+        </ul>
         </section>
 
         <iframe src=
                     "https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d576330.4579655175!2d11.58283327159232!3d55.
                     64915001103083!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sstar%20pizza!5e0!3m2!1sen!2sdk!4v175
                     7075856506!5m2!1sen!2sdk" 
-                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" 
+                    width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" margin:20px;
                     referrerpolicy="no-referrer-when-downgrade">
         </iframe>
 
         <p></p>
 
-<footer style="background:#000000; color:#fff; padding:20px; text-align:center;">
-  <p>&copy; 2025 Pizzaria Bella Vita</p>
-  <p>Adresse: Hovedgade 123, 1234 København</p>
-  <p>Telefon: <a href="tel:+4511122233" style="color:#77e2fa;">+45 44 44 44 44</a></p>
-  <p>Email: <a href="mailto:info@bellavita.dk" style="color:#76efffe8;">info@.mail.dk</a></p>
+<footer style="background:#000000; color:#946868; padding:20px; text-align:center;">
+  &copy; 2025 Star Pizza
+  <br>Adresse: Hovedgade 123, 1234 København<br>
+  Telefon: <a href="tel:+4511122233" style="color:#77e2fa;">+45 44 44 44 44</a>
+  Email: <a href="mailto:info@bellavita.dk" style="color:#76efffe8;">info@.mail.dk</a>
   <nav>
     <a href="index.html" style="color:#fff; margin:0 10px;">Forside</a> |
-    <a href="OmOs.html" style="color:#fff; margin:0 10px;">Om os</a> |
+    <a href="OmOs.html" style="color:#fff; margin:40px;">Om os</a> |
     <a href="Rutevejledning.html" style="color:#fff; margin:0 10px;">Find vej</a>
   </nav>
 </footer>
