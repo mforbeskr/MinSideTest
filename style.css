@@ -17,7 +17,6 @@ main {
   flex: 1;
 }
 
-
 iframe {
   display: block;
   margin: auto;
@@ -42,6 +41,9 @@ p {
 }
 
 table {
+  background-color: #dffcff;
+  text-align: center;
+  padding: 10px;
   margin: auto;
 }
 
@@ -58,9 +60,12 @@ form {
 }
 
 footer {
-    place-content: bottom;
-    bottom: auto;
-    background:#000000; color:#946868; padding:5px; text-align:center;
+  place-content: bottom;
+  bottom: auto;
+  background: #000000;
+  color: #946868;
+  padding: 5px;
+  text-align: center;
 }
 
 nav {
